@@ -66,7 +66,7 @@ class Todo extends React.Component<any, any> {
       config: { title, description, buttonText } = {
         title: "待办事项",
         description: "描述信息",
-        buttonText: "添加"
+        buttonText: "添加待办"
       },
       themeProps
     } = this.props;
