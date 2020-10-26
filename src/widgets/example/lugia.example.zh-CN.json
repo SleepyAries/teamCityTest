@@ -1,0 +1,41 @@
+{
+  "widgetName": "Example",
+  "title": "示例组件",
+  "desc": "组件描述信息",
+  "props": {
+    "data": {
+      "type": "Array",
+      "desc": "属性说明描述",
+      "propsDefaultValue": "属性默认值",
+      "meta": []
+    }
+  },
+  "events": {
+    "onChange": {
+      "desc": "事件说明描述",
+      "args": [
+        {
+          "name": "事件的参数一",
+          "desc": "参数描述",
+          "type": "数据类型"
+        },
+        {
+          "name": "事件的参数二",
+          "desc": "参数描述",
+          "type": "boolean"
+        }
+      ]
+    }
+  },
+  "category": ["数据展示"],
+  "theme": {
+    "Container": {
+      "name": "外部容器",
+      "desc": "外部容器样式",
+      "normal": [["width"], ["height"], ["background"]],
+      "hover": [],
+      "active": [],
+      "disabled": []
+    }
+  }
+}
