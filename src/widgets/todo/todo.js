@@ -11,7 +11,7 @@ const Container = CSSComponent({
   normal: {
     selectNames: [["width"], ["height"], ["background"]]
   },
-  css: `background: #fff;`
+  css: `background: #fff;width: 100%;`
 });
 
 const SingleLine = CSSComponent({
