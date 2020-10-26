@@ -1,11 +1,12 @@
 {
   "name": "@lugiatest/lugia-teamcity-test",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.0",
   "scripts": {
     "start": "lugia-scripts start",
     "build": "lugia-scripts build",
     "test": "lugia-scripts test -w",
     "clean": "npx shx rm -rf dist/ interface/ npm-shrinkwrap.all.json src/widgets/static src/widgets/designInfo.dll.json",
+    "updateVeision": " node --max-old-space-size=24000  scripts/changeVersion.js && npm run dist",
     "dist": "npm run clean && node  --max-old-space-size=24000  scripts/compile.js"
   },
   "dependencies": {
