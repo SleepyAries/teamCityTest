@@ -172,7 +172,6 @@ class Todo extends React.Component {
 
   doDeleteTodo = () => {
     const { data = [], radioValue = [] } = this.state;
-
     let newData = [...data];
     radioValue.forEach(select => {
       newData = newData.reduce(function(newArr, itemArr) {
