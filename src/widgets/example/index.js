@@ -1,7 +1,7 @@
 import React from 'react';
 import ThemeHoc from '@lugia/theme-hoc';
 
-class Example extends React.Component<any, any> {
+class Example extends React.Component {
   render() {
     return (
      <div>example</div>
