@@ -180,7 +180,6 @@ class Todo extends React.Component {
         return !isSame ? newArr.concat(itemArr) : newArr;
       }, []);
     });
-
     this.setState({ data: newData, radioValue: [] });
     const { onChange } = this.props;
     onChange && onChange({ newValue: newData, oldValue: data });
