@@ -27,7 +27,7 @@ const defaultInputTheme = {
   Container: { normal: { width: "70%", height: 40 } }
 };
 const defaultButtonTheme = {
-  Container: { normal: { height: 40, margin: { right: 8, left: 8 } } }
+  Container: { normal: { height: 40, margin: { right: 10, left: 10 } } }
 };
 
 class Todo extends React.Component {
