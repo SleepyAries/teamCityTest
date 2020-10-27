@@ -164,6 +164,7 @@ class Todo extends React.Component {
     if (!value) {
       return;
     }
+
     const newData = [{ title: value, status: "inProcess" }].concat([...data]);
     this.setState({ data: newData, value: "" });
     const { onChange } = this.props;
