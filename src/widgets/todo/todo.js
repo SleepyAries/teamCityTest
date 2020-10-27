@@ -30,7 +30,7 @@ const defaultButtonTheme = {
   Container: { normal: { height: 40, margin: { right: 8, left: 8 } } }
 };
 
-class Todo extends React.Component<any, any> {
+class Todo extends React.Component {
   constructor(props) {
     super();
     this.state = {
@@ -148,12 +148,12 @@ class Todo extends React.Component<any, any> {
     );
   };
 
-  onChange = (param: any) => {
+  onChange = (param) => {
     const { newValue: value } = param;
     this.setState({ value });
   };
 
-  onRadioChange = (param: any) => {
+  onRadioChange = (param) => {
     const { newValue } = param;
     this.setState({ radioValue: newValue });
   };
