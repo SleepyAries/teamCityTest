@@ -100,6 +100,7 @@ class Todo extends React.Component {
     const { theme, viewClass } = this.props.getPartOfThemeHocProps(themeName);
     const resultTheme = deepMerge({ [[viewClass]]: defaultTheme }, theme);
     return { theme: resultTheme, viewClass };
+
     ////getPartOfThemeHocProps(themeName)  函数用来接收用户配置的主题,通过 themeName 来获取对应配置点的样式，然后传入对应要生效此样式的组件
     //如用户配置信息如下：
     //   const view = {
