@@ -4,7 +4,7 @@ import ThemeHoc from '@lugia/theme-hoc';
 class Example extends React.Component {
   render() {
     return (
-     <div>example Demo</div>
+     <div>example Demo a</div>
     );
   }
 }
