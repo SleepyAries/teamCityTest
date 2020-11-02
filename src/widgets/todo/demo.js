@@ -24,7 +24,7 @@ export default () => {
   const config = {
     title: "待办事项",
     description: "代办事件任务栏显示最近要待办的事件",
-    buttonText: "添加待办"
+    buttonText: "新增"
   };
 
   const view = {
