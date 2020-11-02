@@ -17,7 +17,9 @@ export default () => {
     { title: "待办事项二", status: "inProcess" },
     { title: "待办事项三", status: "inProcess" },
     { title: "待办事项四", status: "finish" },
-    { title: "待办事项五", status: "finish" }
+    { title: "待办事项五", status: "finish" },
+    { title: "待办事项六", status: "finish" },
+    { title: "待办事项七", status: "finish" }
   ];
   const config = {
     title: "待办事项",
