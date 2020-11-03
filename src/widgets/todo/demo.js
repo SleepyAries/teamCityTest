@@ -22,7 +22,7 @@ export default () => {
     { title: "待办事项七", status: "finish" }
   ];
   const config = {
-    title: "待办事项",
+    title: "待办列表",
     description: "代办事件任务栏显示最近要待办的事件",
     buttonText: "新增"
   };
